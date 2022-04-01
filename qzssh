@@ -1,0 +1,6 @@
+#/bin/bash
+echo "starting"
+echo $1
+path="/Users/vick/Documents/GitHub/shterm_client"
+
+cd $path && python3 pyloader.py $1
